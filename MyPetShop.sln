@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPetShop.DAL", "MyPetShop.DAL\MyPetShop.DAL.csproj", "{464B88DC-F6C0-4339-B60D-2374A6028007}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPetShop.BLL", "MyPetShop.BLL\MyPetShop.BLL.csproj", "{29B9A682-7688-4517-A190-070CCDD8DE38}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MyPetShop.Web", "MyPetShop.Web\", "{D5179C2F-5F58-4C19-9B13-7DF8E134DA4E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		ProjectReferences = "{29b9a682-7688-4517-a190-070ccdd8de38}|MyPetShop.BLL.dll;{464B88DC-F6C0-4339-B60D-2374A6028007}|MyPetShop.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1359"
+		Debug.AspNetCompiler.PhysicalPath = "MyPetShop.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1359\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1359"
+		Release.AspNetCompiler.PhysicalPath = "MyPetShop.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1359\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1362"
+		SlnRelativePath = "MyPetShop.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{464B88DC-F6C0-4339-B60D-2374A6028007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464B88DC-F6C0-4339-B60D-2374A6028007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464B88DC-F6C0-4339-B60D-2374A6028007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464B88DC-F6C0-4339-B60D-2374A6028007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B9A682-7688-4517-A190-070CCDD8DE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B9A682-7688-4517-A190-070CCDD8DE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B9A682-7688-4517-A190-070CCDD8DE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B9A682-7688-4517-A190-070CCDD8DE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5179C2F-5F58-4C19-9B13-7DF8E134DA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5179C2F-5F58-4C19-9B13-7DF8E134DA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5179C2F-5F58-4C19-9B13-7DF8E134DA4E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5179C2F-5F58-4C19-9B13-7DF8E134DA4E}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0361B64-5D88-481A-887E-DF7CEC54EE93}
+	EndGlobalSection
+EndGlobal
